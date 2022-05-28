@@ -1,0 +1,82 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    opacity: 1;
+    padding-top: 5px;
+}
+
+@media (max-width:768px) {
+    .header {
+        padding: 0px;
+        width: 100vw;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 15px;
+    }
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1128px;
+    margin: auto;
+}
+
+.header__Left {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    /* margin: auto; */
+}
+
+.header__LeftLogo {
+    margin-right: 10px;
+}
+
+.header__LeftSearch {
+    display: flex;
+    align-items: center;
+}
+
+.header__LeftSearch>input {
+    border: none;
+    padding: 0 8px 0 40px;
+    line-height: 1.75;
+    background-color: #eef3f8;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.9);
+    width: 218px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 34px;
+    border-color: #dce6f1;
+}
+
+.header__Right {
+    margin-left: auto;
+    display: block;
+}
+
+@media (max-width:768px) {
+    .header__Right {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: white;
+        width: 100%;
+    }
+}
+
+.header__RightWrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.hover__signout :hover {
+    display: none;
+}

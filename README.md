@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# LinkedIn-Clone using React JS and Firebase
+
+The App has Login and Post features. For posting Videos or Images a Post Modal is used.
+It is identical to LinkedIn Web App and its Mobile responsive as well. 
+For Login, Google Authentication is Used.Firebase Firestore Database is used for the Database and the App is Deployed Using Firebase. 
+
+## Deployed this Project :)
+Check it out==>
+Link--https://linkedin-clone-8da5f.web.app
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
